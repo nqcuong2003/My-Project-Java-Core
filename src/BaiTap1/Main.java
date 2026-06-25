@@ -5,8 +5,15 @@ package BaiTap1;
 public class Main {
     public static void main(String[] args) {
         NgoiNha nn1 = new NgoiNha("xanh",10);
+
         nn1.thongTin();
+
         NgoiNha nn2 = new NgoiNha("tim", 15);
         nn2.thongTin();
+
+        NgoiNha nn3 = new NgoiNha();
+
+
+        NgoiNha nn4 = new NgoiNha("tim");
         }
     }

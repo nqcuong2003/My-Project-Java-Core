@@ -7,6 +7,9 @@ public class ArrayListDemo {
     public static void main(String[] args) {
         List<String> li = new ArrayList<>();
 
+
+
+
         li.add("java");
         li.add("python");
         li.add("C++");

@@ -9,6 +9,14 @@ public class NgoiNha {
         this.soCuaSo = soCuaSo;
     }
 
+    public NgoiNha(){
+
+    }
+    public NgoiNha(String mauSac){
+        this.mauSac = mauSac;
+    }
+
+
     public void thongTin(){
         System.out.println("Nha mau " +this.mauSac + " co " + this.soCuaSo+" cua so");
 
